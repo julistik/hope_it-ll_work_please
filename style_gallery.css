@@ -123,6 +123,7 @@ Responsive Image gallery Style rules
     vertical-align: middle;
     border-radius: 5px;
   }
+
   .gallery li:nth-child(6) img {
     object-fit: cover;
     object-position: top center;
