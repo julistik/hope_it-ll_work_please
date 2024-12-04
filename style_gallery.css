@@ -129,6 +129,8 @@ Responsive Image gallery Style rules
     object-position: top center;
     height: 100%;
     border-radius: 5px;
+    
+    border: 5px solid red;
   }
 
  
