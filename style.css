@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-V.ttf);
+}
+
+body {
+    margin: 0 auto;
+    background-color: #000000;
+    font-family: Inter;
+    color: white;
+}
+
+/**
+ * Sticky navigation
+ */
+.main-menu {
+  width: 100%;
+  height: 70px;
+  background-color: #000000;
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
+    z-index: 3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+    
+
+/**
+ * Display lists on a single line.
+ */
+.list-inline {
+    list-style: none;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.list-inline > li {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.active {
+    text-decoration: none;
+    font-family: Inter, 'Comic Sans MS';
+    font-size: 25;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    align-content: middle;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.activ {
+    text-decoration: none;
+    font-family: Inter, 'Comic Sans MS';
+    font-size: 25;
+    font-weight: normal;
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+
+.list-inline > li:before {
+    content: "\200B"; /* 1 */
+    position: absolute; /* 2 */
+}
+
+.we-know {
+    position: relative;
+}
+
+.we-know #text-on-img {
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.teacher-photo {
+    margin: 10px auto 20px;
+    display: block;
+    max-width: 80%;
+}
+
+.figcap {
+    text-align: center;
+    font-size: small;
+    color:#cdcdcd;
+}
+
+.inf {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 0 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 0 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+select:focus {
+    background-color: #ddd;
+    outline: none;
+}
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 0 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.comment {
+    font-size: small;
+    color: #cdcdcd;
+    margin-top: 0;
+}
+input[type=date] {
+    width: 40%;
+    padding: 15px;
+    margin: 5px 0 0 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=date]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+  /* Стиль миниатюры */
+  .thumbnail {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }
+
+  /* Стиль таблицы для расположения изображения в ячейке */
+  table {
+    width: 100%;
+    text-align: left;
+  }
